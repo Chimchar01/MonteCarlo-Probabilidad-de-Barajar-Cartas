@@ -2,6 +2,7 @@
 Este es un programa en python que calcula la probabilidad por medio de monte carlo de que al barajar un deck de cartas nos encontremos con al menos un As y un Rey del mismo palo consecutivos. 
 
 ¿Cómo se aplica Monte Carlo al problema?
+
 Primero se va a obtener de forma analítica la probabilidad de que al barajar un deck de cartas nos encontremos con un As y un Rey consecutivos del mismo palo.
 
 Luego esta probabilidad también puede ser obtenida por medio de Monte Carlo, para esto se crea un programa que baraja las cartas de forma aleatoria una n cantidad de veces. En cada corrida se revisa si se obtuvo alguna de las configuraciones deseadas. Y la probabilidad está dada por la razón de la cantidad de veces que se obtuvo una configuración deseada entre la n cantidad de veces que se corrió el programa.
