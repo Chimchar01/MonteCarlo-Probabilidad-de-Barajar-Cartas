@@ -12,6 +12,7 @@ Finalmente se compara la probabilidad analítica con la de Monte Carlo. Para est
 
 
 Parámetros a tener en cuenta:
+
   trials_list: Es una lista con los números de veces que se quiere que se barajen las cartas. Mientras mayor sea el número de trials, más preciso es el programa.
   runs: Es el número de veces que se va a correr el programa para cada trial. Mientras más alto sea este número mejores promedios de probabilidades se obtienen.
   realvalue: Es el valor de la probabilidad real que se obtiene de forma analítica.
@@ -19,5 +20,6 @@ Parámetros a tener en cuenta:
   
   
 Sugerencias:
-Como sugerencia para un futuro proyecto, sería probar este programa para trials > 10000 y runs > 100. De esta forma probablemente se obtengan resultados más precisos. Además este
+
+Como sugerencia para un futuro proyecto, sería probar este programa para trials > 1000 y runs > 100. De esta forma probablemente se obtengan resultados más precisos. Además este
 programa funciona como base para obtener las probabilidades de cualquier otra configuración que se pueda pensar en un deck de cartas.  
