@@ -9,6 +9,8 @@ Luego esta probabilidad también puede ser obtenida por medio de Monte Carlo, pa
 
 Finalmente se compara la probabilidad analítica con la de Monte Carlo. Para esto el programa creado se corre cien veces para un diferente número de intentos en los que se baraja el deck (10, 100, 1000). El objetivo de hacer esto es obtener la desviación estándar de las probabilidades que se obtienen y luego se calcula la diferencia entre el promedio de probabilidades de Monte Carlo con respecto a la probabilidad analítica.
 
+El programa guarda en un archivo de excel con el nombre "Estadísticas Juego de Cartas.xlsx" el promedio de probabilidades, la desviación estándar de probabilidades y la diferencia de la probabilidad con Monte Carlo con respecto a la probabilidad analítica (la real) para diferente número de intentos (la cantidad de veces que se baraja el deck). También guarda en una imagen con el nombre "Probabilidad Juego de Cartas.jpg" la gráfica del promedio de probabilidades en función del número de intentos. La línea roja representa la probabilidad analítica (la real).
+
 
 
 
